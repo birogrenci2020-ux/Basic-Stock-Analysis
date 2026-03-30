@@ -38,4 +38,4 @@ def run_model(ticker):
     print("\nLatest data:")
     print(data.tail())
 
-run_model("AGX") #just write the stock you ve been wanting to analyze
+run_model(input("write the stock you ve been wanting to analyze:"))
